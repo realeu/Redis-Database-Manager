@@ -1,10 +1,8 @@
 FROM python:3.9
+WORKDIR .
 
- RUN git clone https://github.com/realeu/Redis-Database-Manager root/realeu
- WORKDIR root/realeu/
+COPY requirements.txt .
+RUN pip3 install -r requirements.txt
 
- RUN cd Redis-Database-Manager
-
- RUN pip install -r requirements.txt
-
- CMD "python3" "main.py"
+COPY . .
+CMD ["python3", "main.py"]
