@@ -111,10 +111,10 @@ def redis_restore(connection, data):
 )
 async def start(event):
     await event.reply(
-        "**Hello and welcome to [Redis Database Manager](https://redislabs.com/)!\n"
-        + "Check out /help menu\n\n"
-        + "Powered by @AidanNia**",
-        buttons=Button.url("Team Ultroid", "https://telegram.me/TeamUltroid"),
+        "**Hello and welcome to [Redis Database Manager](https://redislabs.com/)!**\n"
+        + "**Check out /help menu**\n\n"
+        + "**Powered by @AidanNia**",
+        buttons=Button.url("🦋 Team Ultroid 🦋", "https://telegram.me/TeamUltroid"),
     )
 
 
