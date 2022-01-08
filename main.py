@@ -115,7 +115,6 @@ async def start(event):
         + "Check out /help menu\n\n"
         + "Powered by @AidanNia**",
         buttons=Button.url("Team Ultroid", "https://telegram.me/TeamUltroid"),
-        parse_mode="md",
     )
 
 
