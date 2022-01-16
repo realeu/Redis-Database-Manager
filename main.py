@@ -113,7 +113,7 @@ async def start(event):
     await event.reply(
         "**Hello and welcome to [Redis Database Manager](https://redislabs.com/)!**\n"
         + "**Check out /help menu**\n\n"
-        + "**Powered by @AidanNia**",
+        + "**Powered by @MarineBots**",
         buttons=Button.url("🦋 Team Ultroid 🦋", "https://telegram.me/TeamUltroid"),
         link_preview=False
     )
